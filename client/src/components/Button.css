@@ -1,0 +1,24 @@
+.Button {
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    background: #0ac31a;
+    border: 1px solid #0ac31a;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+.Button:disabled {
+    color: #fff;
+    cursor: not-allowed;
+}
+
+
+.Danger {
+    color: #944317;
+}
+
+.Button.upload {
+    background-color: #a9cf74;
+}
